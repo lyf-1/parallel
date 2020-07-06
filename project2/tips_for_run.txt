@@ -1,0 +1,25 @@
+////////////////
+MonteCarlo:
+run monte carlo to calculate unit circle area (or pi 3.1415926):   
+    "./run.sh mc <threads_num>"
+
+For example, open 4 threads: "./run.sh mc 4"
+
+
+
+////////////////
+QucikSort:
+use quick sort to sort 1,000,000 int number, run the code:
+    "./run.sh qs <threads_num>"
+
+For example,, use 4 threads: "./run.sh qs 4"
+
+
+
+
+////////////////
+PageRank:
+iteration=100, run the code:
+    "./run.sh pr <nodes_number> <threads_num>"
+
+For example, initial a graph  with 1,024,000 nodes and use 4 threads: "./run.sh pr 1024000 4"

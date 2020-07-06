@@ -1,0 +1,38 @@
+Projects 1-3 are done on the HUAWEI Cloud, which consists of at least four VMs.
+Project 1: Have a fun with parallel programming with MPI
+MPI_ALLGATHER: Use MPI_SEND and MPI_RECV to implement the MPI_ALLGATHER function, and compare the performance of your implementation and the original MPI implementation.
+
+Gemm: Initialize a random 1024 *1024 matrix, and implement the matrix multiplication function. Please parallelize the program in the tile unit.
+Using a 4 * 4 kernel to do the pooling operation for the matrix.
+
+Using a 4 * 4 kernel to do the convolution operation for the matrix.
+
+Wordcout:
+We will provide one folder which contains 100 small files and one folder which contains 1 big file.
+
+Implement the wordcount algorithm respectively for the two situations and print the results to the screen.
+
+Analysis: Benchmark your program with different numbers of processors and host nodes. Give an analysis on your program's output.
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Project 2: Have a fun with parallel programming with OPENMP
+Monte Carlo algorithm:
+
+Using OpenMP to implement the Monte Carlo algorithm.
+
+Quick Sort:
+Using OpenMP to implement a quick sorting algorithm with large data volume which contains 1000000 number.
+PageRank:
+Initialize a graph has 1, 024, 000 nodes and the edge count of different nodes ranges from 1 to 10. Implement the PageRank algorithm and run for 100 iterations.
+Analysis: Benchmark your program with different numbers of processors and host nodes. Give an analysis on your program's output.
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Project 3: Big Data Analysis in Hadoop System
+Requirements
+
+Each student group should propose a project proposal, which is targeting at implementing weatherdata program using MapReduce.
+
+Weatherdata is a project to get the temperatures from the website, which is available on http://ram-n.github.io/weatherData/
+
+You need use your weatherdata program to get the statistics of the highest and lowest temperature for all the files in the data directory, respectively.
+

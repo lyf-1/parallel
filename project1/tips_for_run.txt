@@ -1,0 +1,7 @@
+////////////////
+WordCount:
+due to file path problem. you can only go into the foler "mpi_wordcount/src", 
+and run "mpiexec -n <process_num> ./main <0 or 1>"  (0 is for big files, 1 is for 100 small files).
+
+
+mpi_allgahter, matrix_multiply, pool, convolutioin. you can see run.sh, which have description for parameters.

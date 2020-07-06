@@ -1,0 +1,1 @@
+extern void startReader(int my_rank, double split_size, FileInformationContainer * filesContainer, CounterContainer * entriesContainer);

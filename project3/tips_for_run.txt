@@ -1,0 +1,13 @@
+go to "max" folder:
+
+	./run.sh
+	./check.sh
+
+
+
+
+
+
+go to "min" folder
+	./run.sh
+	./check.sh
